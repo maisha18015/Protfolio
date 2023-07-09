@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 /* commo shared styles */
 .boby{
     font-family: 'Open Sans', sans-serif;
@@ -20,6 +24,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin: 0 200px;
+    padding-top: 30px;
 }
 .nav-title{
     color: black;
@@ -44,12 +49,34 @@ nav a{
 /* header section */
 .header{
      background-color: #fff8f3;
+     background-image: url("../images/header_bg.png");
+     background-repeat: no-repeat;
+     background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 30px  150px;
+    padding: 30px 30px 0px  150px;
     display: flex;
     align-items: center ;
+    padding: auto;
+    justify-content: space-between;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-title{
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.banner-description{
+    color: #757575;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 40px;
 }
 .Profile-pic{
     width: 400px;
+   
 }
